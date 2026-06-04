@@ -1,0 +1,50 @@
+{
+    "name": "Nifty's Repo",
+    "subtitle": "My apps and some things that I backup",
+    "description": "Welcome to my personal source! Here you'll find all of my apps and the apps I backup.",
+    "iconURL": "https://niftyuwu.github.io/repo/sidestore/icon.png",
+    "headerURL": "https://niftyuwu.github.io/repo/sidestore/banner.jpg",
+    "website": "https://niftyuwu.github.io",
+    "tintColor": "#ED5CC7",
+    "featuredApps": [
+        "com.niftyuwu.uwu"
+    ],
+    "apps": [
+        {
+            "name": "UwU",
+            "bundleIdentifier": "com.niftyuwu.uwu",
+            "developerName": "nifty",
+            "subtitle": "UwU for iOS",
+            "localizedDescription": "UwU for iOS.",
+            "iconURL": "https://niftyuwu.github.io/repo/sidestore/apps/UwU/UwU.png",
+            "tintColor": "#00bfff",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "2.0.0",
+                    "date": "2026-03-30T09:35:20+03:00",
+                    "size": 70914248,
+                    "downloadURL": "http://wolfer-uwu.ru/deltarune.ipa",
+                    "localizedDescription": "UwU test thing",
+                    "minOSVersion": "18.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "Created this repo :3",
+            "identifier": "creation",
+            "caption": "I created this repo muhehehe :3",
+            "date": "2026-06-04",
+            "tintColor": "#ffabd5",
+            "imageURL": "https://niftyuwu.github.io/repo/sidestore/news/muhehehe.png",
+            "notify": true,
+            "url": "https://niftyuwu.github.io/"
+        }
+    ]
+}
