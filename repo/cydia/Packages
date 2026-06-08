@@ -1,0 +1,16 @@
+Package: com.niftyuwu.slidetouwu
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: niftyuwu
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.niftyuwu.slidetouwu_0.0.1-1+debug_iphoneos-arm.deb
+Size: 3174
+MD5sum: 995aa89a6c5c8f98decca14716884081
+SHA1: 63442080311c8295c73205150fd77bb0c23d66b6
+SHA256: 2dcf5c882345fce9d5feba4e2049ab90749976495622c73b0dc86d3fb4ab8f3d
+Section: Tweaks
+Description: Changes iOS 6 slide to unlock text to slide to uwu :33
+Author: niftyuwu
+Name: slidetouwu
+
