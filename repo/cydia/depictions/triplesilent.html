@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Triple Silent</title>
+  <style>
+    body { margin:0; padding:18px; font-family:-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; background:#f6f6f6; color:#222; }
+    .card { max-width:640px; margin:0 auto 12px; background:#fff; border:1px solid #ddd; border-radius:10px; padding:16px; }
+    .head { display:flex; align-items:center; gap:12px; }
+    img { width:58px; height:58px; border-radius:13px; }
+    h1 { margin:0; font-size:24px; }
+    h2 { margin:4px 0 10px; font-size:17px; }
+    p, li { font-size:15px; line-height:1.45; }
+    ul { padding-left:20px; }
+    code { background:#eee; padding:2px 5px; border-radius:4px; }
+    .muted { color:#666; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="head">
+      <img src="../icons/triplesilent.png" alt="Triple Silent icon">
+      <div>
+        <h1>Triple Silent</h1>
+        <p class="muted">Toggle Silent Mode from Activator.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <p>Triple Silent adds an Activator action that toggles Silent Mode. It is useful for older iPhones with a broken mute switch.</p>
+    <ul>
+      <li>No background daemon</li>
+      <li>No settings app clutter</li>
+      <li>Built for iOS 6-era devices</li>
+      <li>Works through Activator, so the Home button gesture does not quit the current app</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Setup</h2>
+    <p>After installing, open:</p>
+    <p><code>Settings → Activator → Anywhere → Home Button → Triple Press</code></p>
+    <p>Choose <code>Triple Silent</code>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Dependencies</h2>
+    <ul>
+      <li>MobileSubstrate</li>
+      <li>Activator</li>
+    </ul>
+  </div>
+</body>
+</html>
