@@ -3,110 +3,45 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nifty's Repo</title>
+  <title>Nifty's Cydia Repo</title>
   <style>
-    :root {
-      color-scheme: light dark;
-      --bg: #f7f7fb;
-      --panel: #ffffff;
-      --text: #1f2330;
-      --muted: #667085;
-      --accent: #ed5cc7;
-      --border: #e3e6ef;
-    }
-
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #11131a;
-        --panel: #191c25;
-        --text: #f3f4f8;
-        --muted: #a7adbd;
-        --border: #2a2f3d;
-      }
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: grid;
-      place-items: center;
-      padding: 32px 16px;
-      background: var(--bg);
-      color: var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    }
-
-    main {
-      width: min(100%, 520px);
-      padding: 28px;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      background: var(--panel);
-    }
-
-    .title {
-      display: flex;
-      gap: 16px;
-      align-items: center;
-      margin-bottom: 16px;
-    }
-
-    img {
-      width: 64px;
-      height: 64px;
-      border-radius: 14px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 28px;
-      line-height: 1.15;
-      letter-spacing: 0;
-    }
-
-    p {
-      margin: 0 0 20px;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
-    a.button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 44px;
-      padding: 0 18px;
-      border-radius: 8px;
-      background: var(--accent);
-      color: #ffffff;
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    code {
-      display: block;
-      margin-top: 18px;
-      padding: 12px;
-      overflow-wrap: anywhere;
-      border-radius: 8px;
-      background: color-mix(in srgb, var(--border), transparent 45%);
-      color: var(--text);
-    }
+    :root { --bg:#f7f7fb; --panel:#fff; --text:#1f2330; --muted:#667085; --accent:#ed5cc7; --border:#e3e6ef; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#11131a; --panel:#191c25; --text:#f3f4f8; --muted:#a7adbd; --border:#2a2f3d; } }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; padding:32px 16px; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    main { width:min(100%,760px); margin:0 auto; padding:28px; border:1px solid var(--border); border-radius:14px; background:var(--panel); box-shadow:0 12px 36px rgba(0,0,0,.08); }
+    .title { display:flex; gap:16px; align-items:center; margin-bottom:16px; }
+    .title img { width:64px; height:64px; border-radius:14px; }
+    h1 { margin:0; font-size:28px; line-height:1.15; }
+    h2 { margin:28px 0 12px; font-size:18px; }
+    p { margin:0 0 16px; color:var(--muted); line-height:1.5; }
+    a.button { display:inline-flex; align-items:center; justify-content:center; min-height:44px; padding:0 18px; border-radius:10px; background:var(--accent); color:#fff; font-weight:700; text-decoration:none; }
+    code { display:block; margin-top:14px; padding:12px; overflow-wrap:anywhere; border-radius:8px; background:rgba(127,127,127,.12); color:var(--text); }
+    .packages { display:grid; gap:10px; }
+    .pkg { border:1px solid var(--border); border-radius:12px; padding:14px; display:flex; gap:12px; align-items:center; }
+    .pkg img { width:42px; height:42px; border-radius:10px; flex:0 0 auto; }
+    .pkg strong { display:block; }
+    .pkg span { color:var(--muted); font-size:14px; }
   </style>
 </head>
 <body>
   <main>
     <div class="title">
       <img src="CydiaIcon.png" alt="">
-      <h1>Nifty's Repo</h1>
+      <div>
+        <h1>Nifty's Cydia Repo</h1>
+        <p>iOS 6 jailbreak tweaks and small utilities by niftyuwu.</p>
+      </div>
     </div>
-    <p>Nifty’s repo for jailbreak files and utilities</p>
     <a class="button" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://niftyuwu.github.io/repo/cydia/">Add to Cydia</a>
     <code>https://niftyuwu.github.io/repo/cydia/</code>
+
+    <h2>Packages</h2>
+    <div class="packages">
+      <div class="pkg"><img src="icons/ddgsearch.png" alt=""><div><strong>DDGSearch</strong><span>Redirect iOS 6 Safari Google searches to DuckDuckGo HTML.</span></div></div>
+      <div class="pkg"><img src="icons/triplesilent.png" alt=""><div><strong>Triple Silent</strong><span>Toggle Silent Mode using an Activator gesture.</span></div></div>
+      <div class="pkg"><img src="icons/slidetouwu.png" alt=""><div><strong>slidetouwu</strong><span>Change the iOS 6 lock screen text to “slide to uwu”.</span></div></div>
+    </div>
   </main>
 </body>
 </html>

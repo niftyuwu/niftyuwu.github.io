@@ -1,0 +1,94 @@
+Package: com.niftyuwu.ddgsearch
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: niftyuwu
+Installed-Size: 112
+Depends: mobilesubstrate
+Filename: debs/com.niftyuwu.ddgsearch_1.0.0_iphoneos-arm.deb
+Size: 6138
+MD5sum: f43427ecfa69d2e54878ba0ebc6a142d
+SHA1: aa3d4015b4f3c657b091658ca140f7048a0e8f37
+SHA256: da6c77dc1513c4d9cf525fd19d29b7eac849d4e51e8f25af4e0a01f37c6e17b9
+Section: Tweaks
+Description: Redirect iOS 6 Safari Google searches to DuckDuckGo HTML.
+Author: niftyuwu
+Name: DDGSearch
+Icon: https://niftyuwu.github.io/repo/cydia/icons/ddgsearch.png
+Depiction: https://niftyuwu.github.io/repo/cydia/depictions/ddgsearch.html
+SileoDepiction: https://niftyuwu.github.io/repo/cydia/depictions/ddgsearch.html
+
+Package: com.niftyuwu.slidetouwu
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: niftyuwu
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.niftyuwu.slidetouwu_0.0.1_iphoneos-arm.deb
+Size: 2810
+MD5sum: 541232ace40fd953a965c868e042ab93
+SHA1: a77d038e436a13e835be64f14e9217503cd23ed8
+SHA256: 740faa4ecab8726aa1b803f1debcd7de751783096d69c164201b74d47f343f80
+Section: Tweaks
+Description: Changes iOS 6 slide to unlock text to slide to uwu :33
+Author: niftyuwu
+Name: slidetouwu
+Icon: https://niftyuwu.github.io/repo/cydia/icons/slidetouwu.png
+Depiction: https://niftyuwu.github.io/repo/cydia/depictions/slidetouwu.html
+SileoDepiction: https://niftyuwu.github.io/repo/cydia/depictions/slidetouwu.html
+
+Package: com.niftyuwu.slidetouwu
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: niftyuwu
+Installed-Size: 104
+Depends: mobilesubstrate
+Filename: debs/com.niftyuwu.slidetouwu_0.0.1-1+debug_iphoneos-arm.deb
+Size: 3174
+MD5sum: 995aa89a6c5c8f98decca14716884081
+SHA1: 63442080311c8295c73205150fd77bb0c23d66b6
+SHA256: 2dcf5c882345fce9d5feba4e2049ab90749976495622c73b0dc86d3fb4ab8f3d
+Section: Tweaks
+Description: Changes iOS 6 slide to unlock text to slide to uwu :33
+Author: niftyuwu
+Name: slidetouwu
+Icon: https://niftyuwu.github.io/repo/cydia/icons/slidetouwu.png
+Depiction: https://niftyuwu.github.io/repo/cydia/depictions/slidetouwu.html
+SileoDepiction: https://niftyuwu.github.io/repo/cydia/depictions/slidetouwu.html
+
+Package: com.niftyuwu.triplesilent
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: niftyuwu
+Installed-Size: 112
+Depends: mobilesubstrate, libactivator
+Filename: debs/com.niftyuwu.triplesilent_1.1.0_iphoneos-arm.deb
+Size: 8452
+MD5sum: 15505528230ee1a119e445333d4a3d03
+SHA1: fc34bbf2ea92a50cd230049431c1d136fd3740da
+SHA256: 00500895066c0c732a206cbdcbb32a3263e0731b0cdd798133e8e66030d55515
+Section: Tweaks
+Description: Toggle Silent Mode from Activator. Built for iOS 6 devices with a broken mute switch.
+Author: niftyuwu
+Name: Triple Silent
+Icon: https://niftyuwu.github.io/repo/cydia/icons/triplesilent.png
+Depiction: https://niftyuwu.github.io/repo/cydia/depictions/triplesilent.html
+SileoDepiction: https://niftyuwu.github.io/repo/cydia/depictions/triplesilent.html
+
+Package: com.niftyuwu.triplesilent
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: niftyuwu
+Installed-Size: 120
+Depends: mobilesubstrate, libactivator
+Filename: debs/com.niftyuwu.triplesilent_1.1.1_iphoneos-arm.deb
+Size: 10958
+MD5sum: 7510fa0b47a5aa3290c7082e537dc695
+SHA1: b645a8d85dd97912e62dabca2459848f9c8f8e2d
+SHA256: 492254d059fd9b8a574e3c5c231e76a3dfd887fabb70018384bc743c6a314b3e
+Section: Tweaks
+Description: Toggle Silent Mode using an Activator gesture. Made for iOS 6 devices with a broken mute switch.
+Author: niftyuwu
+Name: Triple Silent
+Icon: https://niftyuwu.github.io/repo/cydia/icons/triplesilent.png
+Depiction: https://niftyuwu.github.io/repo/cydia/depictions/triplesilent.html
+SileoDepiction: https://niftyuwu.github.io/repo/cydia/depictions/triplesilent.html
